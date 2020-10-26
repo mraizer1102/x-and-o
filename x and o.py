@@ -16,7 +16,7 @@ def check_if_cell_is_empty(list,place):
 
 # בדיקה האם יש נצחון
 def check_win(list):
-    if list[0]==list[1]==list[2] or list[3]==list[4]==list[5] or list[6]==list[7]==list[8] or list[0]==list[4]==list[8] or list[2]==list[4]==list[6] or list[0]==list[3]==list[6] or list[1]==list[4]==list[7] or list[2]==list[5]==list[8]:
+    if list[1]==list[2]==list[3] or list[4]==list[5]==list[6] or list[7]==list[8]==list[9] or list[1]==list[4]==list[7] or list[2]==list[5]==list[8] or list[3]==list[6]==list[9] or list[1]==list[4]==list[7] or list[2]==list[5]==list[8]:
         return True
 
 # בדיקה האפ קיימים תאים פנויים
